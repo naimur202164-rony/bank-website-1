@@ -6,9 +6,9 @@ document.getElementById("login-submite").addEventListener("click", function () {
     const passwordFile = document.getElementById("user-password");
     const userPassword = passwordFile.value;
     // console.log(userPassword);
-    if (userEmail == "bay@gmail.com" && userPassword == "rony") {
-        window.location.href = "banking.html"
-    }
+
+    window.location.href = "banking.html"
+
 
 
 });
